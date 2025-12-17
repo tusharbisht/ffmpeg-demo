@@ -1,0 +1,190 @@
+frame_file,ts_ms,key_events,expected_keys,ocr_text,all_expected_in_ocr,missing_keys,expected_len,ocr_len,delta_pass
+frame_000001.png,1765871406806.000,1765871407047105:down:Key.cmd,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000002.png,1765871406848.000,1765871407094504:down:Key.tab,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000003.png,1765871406911.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000004.png,1765871406937.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000005.png,1765871406976.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000006.png,1765871407015.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000007.png,1765871407048.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000008.png,1765871407073.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000009.png,1765871407112.000,1765871407806638:down:Key.tab,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000010.png,1765871407141.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000011.png,1765871407178.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000012.png,1765871407213.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000013.png,1765871407246.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000014.png,1765871407284.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000015.png,1765871407308.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000016.png,1765871407344.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000017.png,1765871407370.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000018.png,1765871407408.000,1765871408087318:down:Key.cmd,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000019.png,1765871407446.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000020.png,1765871407474.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000021.png,1765871407512.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000022.png,1765871407549.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000023.png,1765871407581.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000024.png,1765871407616.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000025.png,1765871407697.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000026.png,1765871407724.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000027.png,1765871407778.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000028.png,1765871407805.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000029.png,1765871407841.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000030.png,1765871407879.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000031.png,1765871407909.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000032.png,1765871407958.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000033.png,1765871408019.000,,,Activity Monitor\nMy Processes\n\ney\n\nCPU Memory\n\nEner\n,1,,0,52,1
+frame_000034.png,1765871408049.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000035.png,1765871408067.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000036.png,1765871408091.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000037.png,1765871408111.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000038.png,1765871408149.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000039.png,1765871408186.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000040.png,1765871408289.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000041.png,1765871408747.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000042.png,1765871408773.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000043.png,1765871408812.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000044.png,1765871409316.000,,,Q  Bearch mail\n,1,,0,15,1
+frame_000045.png,1765871409380.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000046.png,1765871409814.000,,,Q Search mail\n,1,,0,14,1
+frame_000047.png,1765871410303.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000048.png,1765871410813.000,1765871411123893:down:t,t,Q Search mail\n,0,t,1,14,0
+frame_000049.png,1765871411244.000,1765871411730637:down:u,u,,0,u,1,0,0
+frame_000050.png,1765871411576.000,1765871412107776:down:s,s,,0,s,1,0,0
+frame_000051.png,1765871411703.000,,,efahn\n\n,1,,0,7,1
+frame_000052.png,1765871411814.000,1765871412444260:down:h,h,,0,h,1,0,0
+frame_000053.png,1765871411839.000,,,Qt\n,1,,0,3,1
+frame_000054.png,1765871412106.000,1765871412552058:down:a,a,Qt\n,0,a,1,3,0
+frame_000055.png,1765871412181.000,1765871412656260:down:r,r,,0,r,1,0,0
+frame_000056.png,1765871412217.000,1765871412911644:down:Key.shift,,,1,,0,0,1
+frame_000057.png,1765871412270.000,,,,1,,0,0,1
+frame_000058.png,1765871412345.000,,,,1,,0,0,1
+frame_000059.png,1765871412543.000,,,,1,,0,0,1
+frame_000060.png,1765871412580.000,,,,1,,0,0,1
+frame_000061.png,1765871412644.000,,,QQ tushd: et 1 ervie\n\n,1,,0,22,1
+frame_000062.png,1765871412744.000,,,Q  tusharfi? «1 ervie\n\n,1,,0,23,1
+frame_000063.png,1765871412872.000,,,Q  tusharfi? «1 ervie\n\n,1,,0,23,1
+frame_000064.png,1765871412973.000,1765871413631630:down:1,1,Q  tusharfi? «1 ervie\n\n,0,1,1,23,0
+frame_000065.png,1765871413111.000,1765871413699266:down:3,3,Q  tusharfi? «1 ervie\n\n,0,3,1,23,0
+frame_000066.png,1765871413213.000,,,Q  tusharfi? «1 ervie\n\n,1,,0,23,1
+frame_000067.png,1765871413237.000,,,QQ tusharit servi\n\n,1,,0,19,1
+frame_000068.png,1765871413340.000,1765871413981191:down:9,9,QQ tusharit servi\n\n,0,9,1,19,0
+frame_000069.png,1765871413441.000,1765871414037290:down:1,1,QQ tusharit servi\n\n,0,1,1,19,0
+frame_000070.png,1765871413710.000,1765871414237121:down:Key.shift,,QQ tusharfe 1 ervic\n\n,1,,0,21,1
+frame_000071.png,1765871413748.000,1765871414332229:down:@,@,Q  tushar|\n,0,@,1,11,0
+frame_000072.png,1765871413772.000,,,Q  tushartq\n,1,,0,12,1
+frame_000073.png,1765871414045.000,1765871414707086:down:g,g,Q  tushartq\n,0,g,1,12,0
+frame_000074.png,1765871414070.000,,,QQ tushart34 11\n\n,1,,0,17,1
+frame_000075.png,1765871414108.000,,,QQ tushart39f2 11\n\n,1,,0,19,1
+frame_000076.png,1765871414309.000,1765871414854330:down:m,m,QQ tushart39f2 11\n\n,0,m,1,19,0
+frame_000077.png,1765871414410.000,1765871414974199:down:a,a,Q tushart391@}. 1\n\n,0,a,1,19,0
+frame_000078.png,1765871414548.000,1765871415062524:down:i,i,Q tushart391@}. 1\n\n,0,i,1,19,0
+frame_000079.png,1765871414776.000,1765871415147243:down:l,l,Q tushart391@}. 1\n\n,0,l,1,19,0
+frame_000080.png,1765871414814.000,1765871415308178:down:.,.,Q  tushar131@qh1:\n\n,0,.,1,19,0
+frame_000081.png,1765871414939.000,1765871415379596:down:c,c,Q_ tushar13%1@gnt:\n\n,0,c,1,20,0
+frame_000082.png,1765871415039.000,1765871415503497:down:o,o,Q  tushar1391@gmq\n\n,0,o,1,19,0
+frame_000083.png,1765871415141.000,1765871415559669:down:m,m,Q_ tushar1391@gmaij\n\n,0,m,1,21,0
+frame_000084.png,1765871415213.000,1765871415868400:down:Key.enter,,Q_ tushar1391@gmaij\n\n,1,,0,21,1
+frame_000085.png,1765871415251.000,,,Q_ tushar1391@gmai\n\n,1,,0,20,1
+frame_000086.png,1765871415315.000,,,Q_ tushar1391@gmai\n\n,1,,0,20,1
+frame_000087.png,1765871415381.000,,,Q_ tushar1391@gmai\n\n,1,,0,20,1
+frame_000088.png,1765871415407.000,,,Q_ tushar1391@gmaill\n\n,1,,0,22,1
+frame_000089.png,1765871415480.000,,,Q__ tushar1391@gmail.\n\n,1,,0,23,1
+frame_000090.png,1765871415546.000,,,Q__ tushar1391@gmail.\n\n,1,,0,23,1
+frame_000091.png,1765871415573.000,,,Q_ tushar1391@gmailcd-i ab)\n,1,,0,28,1
+frame_000092.png,1765871415637.000,,,Q_ tushar1391@gmail.com| “a )\n,1,,0,30,1
+frame_000093.png,1765871415776.000,,,Q_ tushar1391@gmail.com|\n,1,,0,25,1
+frame_000094.png,1765871415878.000,,,Q_ tushar1391@gmail.com|\n,1,,0,25,1
+frame_000095.png,1765871416023.000,,,Q tushari391@gmail.com\n,1,,0,23,1
+frame_000096.png,1765871416045.000,,,Q tushari391@gmail.com\n,1,,0,23,1
+frame_000097.png,1765871416061.000,,,Q  tushari391@gmail.com\n,1,,0,24,1
+frame_000098.png,1765871416090.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000099.png,1765871416137.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000100.png,1765871416169.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000101.png,1765871416286.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000102.png,1765871416322.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000103.png,1765871416359.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000104.png,1765871416382.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000105.png,1765871416405.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000106.png,1765871416423.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000107.png,1765871416458.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000108.png,1765871416497.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000109.png,1765871416519.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000110.png,1765871416553.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000111.png,1765871416585.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000112.png,1765871416615.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000113.png,1765871416651.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000114.png,1765871416677.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000115.png,1765871416714.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000116.png,1765871416751.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000117.png,1765871416781.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000118.png,1765871416808.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000119.png,1765871416848.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000120.png,1765871416875.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000121.png,1765871416915.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000122.png,1765871416942.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000123.png,1765871416983.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000124.png,1765871417012.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000125.png,1765871417042.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000126.png,1765871417080.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000127.png,1765871417111.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000128.png,1765871417192.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000129.png,1765871417218.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000130.png,1765871417251.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000131.png,1765871417301.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000132.png,1765871417337.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000133.png,1765871417368.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000134.png,1765871417396.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000135.png,1765871417424.000,,,Q__tushari391@gmail.com\n,1,,0,24,1
+frame_000136.png,1765871417449.000,,,Q__tushar1391@gmail.com\n,1,,0,24,1
+frame_000137.png,1765871417472.000,,,Q__tushar1391@gmail.com\n,1,,0,24,1
+frame_000138.png,1765871417495.000,1765871418192856:down:Key.cmd,,Q__tushar1391@gmail.com\n,1,,0,24,1
+frame_000139.png,1765871418123.000,1765871418329187:down:Key.tab,,Q__tushar1391@gmail.com\n,1,,0,24,1
+frame_000140.png,1765871418148.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000141.png,1765871418308.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000142.png,1765871418481.000,1765871419024614:down:Key.ctrl,,Q_ Search mail\n,1,,0,15,1
+frame_000143.png,1765871418506.000,1765871419062138:down:c,c,Q_ Search mail\n,0,c,1,15,0
+frame_000144.png,1765871418544.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000145.png,1765871418570.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000146.png,1765871418610.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000147.png,1765871418677.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000148.png,1765871418711.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000149.png,1765871418748.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000150.png,1765871418774.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000151.png,1765871418814.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000152.png,1765871418844.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000153.png,1765871418874.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000154.png,1765871418914.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000155.png,1765871418974.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000156.png,1765871419012.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000157.png,1765871419038.000,,,Q_ Search mail\n,1,,0,15,1
+frame_000158.png,1765871419038.000,,,Q tushart 391 @gugil.com\n,1,,0,25,1
+frame_000159.png,1765871419038.000,,,Q tushart 391 @gugil.com\n,1,,0,25,1
+frame_000160.png,1765871419038.000,,,Q tushart 391@gnppil.com\n,1,,0,25,1
+frame_000161.png,1765871419038.000,,,Q tushart 391@gnppil.com\n,1,,0,25,1
+frame_000162.png,1765871419038.000,,,Q_tushari391@gmail.com\n,1,,0,23,1
+frame_000163.png,1765871419038.000,,,Q __tushar1391@gmail.com\n,1,,0,25,1
+frame_000164.png,1765871419038.000,,,Q __tushar1391@gmail.com\n,1,,0,25,1
+frame_000165.png,1765871419038.000,,,Q __tushar1391@gmail.com\n,1,,0,25,1
+frame_000166.png,1765871419038.000,,,Q __tushar1391@gmail.com\n,1,,0,25,1
+frame_000167.png,1765871419038.000,,,Q __tushar1391@gmail.com\n,1,,0,25,1
+frame_000168.png,1765871419038.000,,,Q __tushar1391@gmail.com\n,1,,0,25,1
+frame_000169.png,1765871419038.000,,,Q __tushar1391@gmail.com\n,1,,0,25,1
+frame_000170.png,1765871419038.000,,,Q _tushari391@gmail.com\n,1,,0,24,1
+frame_000171.png,1765871419038.000,,,Q _tushari391@gmail.com\n,1,,0,24,1
+frame_000172.png,1765871419038.000,,,Q _tushari391@gmail.com\n,1,,0,24,1
+frame_000173.png,1765871419038.000,,,Q _tushari391@gmail.com\n,1,,0,24,1
+frame_000174.png,1765871419038.000,,,Q _tushari391@gmail.com\n,1,,0,24,1
+frame_000175.png,1765871419038.000,,,Q _tushari391@gmail.com\n,1,,0,24,1
+frame_000176.png,1765871419038.000,,,Q _tushari391@gmail.com\n,1,,0,24,1
+frame_000177.png,1765871419038.000,,,Q _tushari391@gmail.com\n,1,,0,24,1
+frame_000178.png,1765871419038.000,,,Q _tushari391@gmail.com\n,1,,0,24,1
+frame_000179.png,1765871419038.000,,,Q _tushari391@gmail.com\n,1,,0,24,1
+frame_000180.png,1765871419038.000,,,Q _tushari391@gmail.com\n,1,,0,24,1
+frame_000181.png,1765871419038.000,,,Q _tushari391@gmail.com\n,1,,0,24,1
+frame_000182.png,1765871419038.000,,,Q _tushari391@gmail.com\n,1,,0,24,1
+frame_000183.png,1765871419038.000,,,Q _tushari391@gmail.com\n,1,,0,24,1
+frame_000184.png,1765871419038.000,,,Q _tushari391@gmail.com\n,1,,0,24,1
+frame_000185.png,1765871419038.000,,,. -\nra. | &\neightsRd Q nde ¥q Restaurants lm Hotels (6) Thingstodo 4 & Transit\n,1,,0,79,1
+frame_000186.png,1765871419038.000,,,. -\nra. | &\neightsRd Q nde ¥q Restaurants lm Hotels (6) Thingstodo 4 & Transit\n,1,,0,79,1
+frame_000187.png,1765871419038.000,,,. -\nra. | &\neightsRd Q nde ¥q Restaurants lm Hotels (6) Thingstodo 4 & Transit\n,1,,0,79,1
+frame_000188.png,1765871419038.000,,,. -\nra. | &\neightsRd Q nde ¥q Restaurants lm Hotels (6) Thingstodo 4 & Transit\n,1,,0,79,1
+frame_000189.png,1765871419038.000,,,. -\nra. | &\neightsRd Q nde ¥q Restaurants lm Hotels (6) Thingstodo 4 & Transit\n,1,,0,79,1
