@@ -21,6 +21,7 @@ start /B ffmpeg -f gdigrab -framerate 30 -i desktop -filter_complex "settb=1/100
 REM Run keylogger (foreground, blocks until ESC/Ctrl-C)
 python keylogger\keylogger.py
 
-REM Note: Press ESC in the keylogger window to stop recording
-REM To stop ffmpeg manually, find the ffmpeg process in Task Manager and end it
-
+REM Cleanup: Kill ffmpeg process when keylogger exits
+echo Stopping ffmpeg...
+taskkill /F /IM ffmpeg.exe >nul 2>&1
+echo Recording stopped.
