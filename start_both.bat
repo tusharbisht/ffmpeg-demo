@@ -28,5 +28,8 @@ if exist venv\Scripts\python.exe (
 
 REM Cleanup: Kill ffmpeg process when keylogger exits
 echo Stopping ffmpeg...
+taskkill /IM ffmpeg.exe >nul 2>&1
+timeout /t 2 >nul
+REM Fallback: if still running, force kill
 taskkill /F /IM ffmpeg.exe >nul 2>&1
 echo Recording stopped.
