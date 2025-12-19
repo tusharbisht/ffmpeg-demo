@@ -27,9 +27,12 @@ if exist venv\Scripts\python.exe (
     python keylogger\keylogger.py
 )
 
-REM Cleanup: Kill ffmpeg process when keylogger exits
+REM Cleanup: Gracefully stop ffmpeg to allow timestamp file to flush
 echo Stopping ffmpeg...
-REM Kill ffmpeg directly (not the wrapper batch file)
+REM Try graceful shutdown first, then wait for file flush
+taskkill /IM ffmpeg.exe >nul 2>&1
+timeout /t 3 >nul
+REM Force kill if still running
 taskkill /F /IM ffmpeg.exe >nul 2>&1
 if exist ffmpeg_pid.txt del ffmpeg_pid.txt
 echo Recording stopped.
