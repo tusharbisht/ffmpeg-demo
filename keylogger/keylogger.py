@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # keylogger.py
-# Records key events to keylog.csv with microsecond timestamps.
+# Records key events to keylog.csv with 12-digit millisecond timestamps.
 # Stop by pressing ESC (or Ctrl-C).
 
 from pynput import keyboard
@@ -11,8 +11,10 @@ import os
 
 OUT = "keylog.csv"
 
-def now_us():
-    return time.time_ns() // 1000  # microseconds
+def now_ms_12digits():
+    """Return timestamp as 12-digit milliseconds (modulo 10^12 to ensure exactly 12 digits)."""
+    ms = time.time_ns() // 1_000_000  # nanoseconds to milliseconds
+    return ms % 1_000_000_000_000  # modulo 10^12 to get exactly 12 digits
 
 # Header if file doesn't exist
 if not os.path.exists(OUT):
@@ -25,7 +27,7 @@ def on_press(key):
         kname = key.char
     except AttributeError:
         kname = str(key)
-    ts = now_us()
+    ts = now_ms_12digits()
     with open(OUT, "a", newline="") as f:
         writer = csv.writer(f)
         writer.writerow([ts, "down", kname, ""])
@@ -39,7 +41,7 @@ def on_release(key):
         kname = key.char
     except AttributeError:
         kname = str(key)
-    ts = now_us()
+    ts = now_ms_12digits()
     with open(OUT, "a", newline="") as f:
         writer = csv.writer(f)
         writer.writerow([ts, "up", kname, ""])
