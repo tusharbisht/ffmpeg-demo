@@ -32,7 +32,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--frames-dir",
         default="frames",
-        help="Directory that contains frame_XXXXX.png images.",
+        help="Directory that contains frame_XXXXX.jpg images.",
     )
     parser.add_argument(
         "--mapping-csv",

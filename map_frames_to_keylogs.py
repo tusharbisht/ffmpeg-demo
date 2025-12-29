@@ -22,7 +22,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Pair frames with timestamps and nearby key events."
     )
-    parser.add_argument("--frames-dir", default="frames", help="Directory with frame PNGs.")
+    parser.add_argument("--frames-dir", default="frames", help="Directory with frame JPEGs.")
     parser.add_argument(
         "--timestamps",
         default="frame_timestamps_ms.txt",
@@ -335,7 +335,7 @@ def find_nearest_event(
 def main() -> None:
     args = parse_args()
 
-    frame_files = sorted(glob.glob(os.path.join(args.frames_dir, "frame_*.png")))
+    frame_files = sorted(glob.glob(os.path.join(args.frames_dir, "frame_*.jpg")))
     frame_ts_us = load_frame_timestamps(args.timestamps)
 
     if len(frame_files) != len(frame_ts_us):

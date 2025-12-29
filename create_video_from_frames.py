@@ -25,7 +25,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--frames-dir",
         default="frames",
-        help="Directory containing frame_*.png files.",
+        help="Directory containing frame_*.jpg files.",
     )
     parser.add_argument(
         "--timestamps",
@@ -168,7 +168,7 @@ def create_video_simple(
         sys.exit(1)
 
     # Build pattern for frame sequence
-    frame_pattern = os.path.join(frames_dir, "frame_%06d.png")
+    frame_pattern = os.path.join(frames_dir, "frame_%06d.jpg")
 
     cmd = [
         "ffmpeg",
@@ -196,7 +196,7 @@ def main() -> None:
 
     # Get frame files
     frames_dir = Path(args.frames_dir)
-    frame_files = sorted(glob.glob(str(frames_dir / "frame_*.png")))
+    frame_files = sorted(glob.glob(str(frames_dir / "frame_*.jpg")))
 
     if not frame_files:
         print(f"Error: No frame files found in {args.frames_dir}")

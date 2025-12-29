@@ -26,7 +26,7 @@ PRINTABLE = set(string.ascii_letters + string.digits + string.punctuation + " ")
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="OCR per frame and detect newly appearing chars.")
-    p.add_argument("--frames-dir", default="frames", help="Directory with frame_XXXXX.png images.")
+    p.add_argument("--frames-dir", default="frames", help="Directory with frame_XXXXX.jpg images.")
     p.add_argument("--output", default="ocr_char_deltas.csv", help="Output CSV.")
     p.add_argument("--lang", default="eng", help="Tesseract language (default: eng).")
     p.add_argument(
@@ -90,7 +90,7 @@ def newly_appeared_chars(prev: str, curr: str) -> List[str]:
 def main() -> None:
     args = parse_args()
     crop_box = parse_crop(args.crop)
-    frames = sorted(glob.glob(os.path.join(args.frames_dir, "frame_*.png")))
+    frames = sorted(glob.glob(os.path.join(args.frames_dir, "frame_*.jpg")))
     prev_text = ""
 
     with open(args.output, "w", newline="") as f:

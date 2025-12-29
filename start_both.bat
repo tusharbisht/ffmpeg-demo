@@ -9,7 +9,7 @@ if exist frames_with_keys.csv del /q frames_with_keys.csv
 
 REM Clean up frames directory
 if exist frames (
-    del /q frames\*.png 2>nul
+    del /q frames\*.jpg 2>nul
 ) else (
     mkdir frames
 )
