@@ -19,6 +19,11 @@ REM Using gdigrab to capture desktop (Windows equivalent of avfoundation)
 REM Use wrapper batch file to avoid PowerShell argument parsing issues
 powershell -Command "$proc = Start-Process -FilePath '%~dp0start_ffmpeg.bat' -WorkingDirectory '%~dp0' -WindowStyle Hidden -PassThru; $proc.Id | Out-File -FilePath '%~dp0ffmpeg_pid.txt' -Encoding ASCII"
 
+REM Set high priority on ffmpeg.exe process to reduce latency under CPU stress
+REM Wait a moment for ffmpeg to start, then set priority
+timeout /t 1 >nul
+powershell -Command "$ffmpeg = Get-Process -Name ffmpeg -ErrorAction SilentlyContinue | Select-Object -First 1; if ($ffmpeg) { $ffmpeg.PriorityClass = 'High' }"
+
 REM Run keylogger (foreground, blocks until ESC/Ctrl-C)
 REM Use venv Python if it exists, otherwise use system Python
 if exist venv\Scripts\python.exe (
