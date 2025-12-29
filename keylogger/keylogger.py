@@ -33,8 +33,13 @@ def on_press(key):
         writer.writerow([ts, "down", kname, ""])
     # Optional: stop on ESC
     if key == keyboard.Key.esc:
-        print("ESC pressed — stopping.")
-        return False
+        response = input("ESC pressed. Stop keylogger? (Y/n): ").strip().upper()
+        if response in ("Y", "YES", ""):
+            print("Stopping keylogger...")
+            return False
+        else:
+            print("Continuing keylogger...")
+            return True
 
 def on_release(key):
     try:
