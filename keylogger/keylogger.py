@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # keylogger.py
 # Records key events to keylog.csv with 13-digit millisecond timestamps.
-# Stop by pressing ESC (or Ctrl-C).
+# Stop by pressing Ctrl-C.
 
 from pynput import keyboard
 import time
@@ -31,15 +31,6 @@ def on_press(key):
     with open(OUT, "a", newline="") as f:
         writer = csv.writer(f)
         writer.writerow([ts, "down", kname, ""])
-    # Optional: stop on ESC
-    if key == keyboard.Key.esc:
-        response = input("ESC pressed. Stop keylogger? (Y/n): ").strip().upper()
-        if response in ("Y", "YES", ""):
-            print("Stopping keylogger...")
-            return False
-        else:
-            print("Continuing keylogger...")
-            return True
 
 def on_release(key):
     try:
@@ -52,7 +43,7 @@ def on_release(key):
         writer.writerow([ts, "up", kname, ""])
 
 if __name__ == "__main__":
-    print("Starting keylogger. Press ESC to stop.")
+    print("Starting keylogger. Press Ctrl+C to stop.")
     with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
         try:
             listener.join()
